@@ -33,8 +33,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@strapi/provider-upload-cloudinary", "npm:4.10.1"],\
             ["@strapi/strapi", "npm:4.10.1"],\
             ["better-sqlite3", "npm:8.0.1"],\
+            ["invariant", "npm:2.2.4"],\
+            ["lodash", "npm:4.17.21"],\
             ["pg", "virtual:5a86ef05506a7bb6cd3da6030a44f4f8506f0f0c3e91a1670662f84681da5fb7fc2af84d2854eb32c2ae0c7bf725d4675f150d157d6e10f32ec7e2da38e52567#npm:8.10.0"],\
             ["pg-connection-string", "npm:2.5.0"],\
+            ["prop-types", "npm:15.8.1"],\
             ["react-router", "virtual:5a86ef05506a7bb6cd3da6030a44f4f8506f0f0c3e91a1670662f84681da5fb7fc2af84d2854eb32c2ae0c7bf725d4675f150d157d6e10f32ec7e2da38e52567#npm:6.11.0"],\
             ["stripe", "npm:12.3.0"]\
           ],\
@@ -16255,8 +16258,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@strapi/provider-upload-cloudinary", "npm:4.10.1"],\
             ["@strapi/strapi", "npm:4.10.1"],\
             ["better-sqlite3", "npm:8.0.1"],\
+            ["invariant", "npm:2.2.4"],\
+            ["lodash", "npm:4.17.21"],\
             ["pg", "virtual:5a86ef05506a7bb6cd3da6030a44f4f8506f0f0c3e91a1670662f84681da5fb7fc2af84d2854eb32c2ae0c7bf725d4675f150d157d6e10f32ec7e2da38e52567#npm:8.10.0"],\
             ["pg-connection-string", "npm:2.5.0"],\
+            ["prop-types", "npm:15.8.1"],\
             ["react-router", "virtual:5a86ef05506a7bb6cd3da6030a44f4f8506f0f0c3e91a1670662f84681da5fb7fc2af84d2854eb32c2ae0c7bf725d4675f150d157d6e10f32ec7e2da38e52567#npm:6.11.0"],\
             ["stripe", "npm:12.3.0"]\
           ],\

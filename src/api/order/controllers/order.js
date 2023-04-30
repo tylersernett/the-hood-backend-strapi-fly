@@ -1,6 +1,6 @@
 'use strict';
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY)
-const { serv_config } = require("../../../../constants");
+//const { serv_config } = require("../../../../constants");
 
 /**
  * order controller
@@ -39,8 +39,8 @@ module.exports = createCoreController('api::order.order', ({ strapi }) => ({ //a
                 payment_method_types: ["card"],
                 customer_email: email,
                 mode: "payment",
-                success_url: `${baseURL}/checkout/success`,
-                cancel_url: `${baseURL}`,
+                success_url: `https://tylersernett.github.io/react-ecommerce/checkout/success`,
+                cancel_url: `https://tylersernett.github.io/react-ecommerce`,
                 line_items: lineItems,
             });
 

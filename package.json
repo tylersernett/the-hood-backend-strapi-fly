@@ -15,8 +15,11 @@
     "@strapi/provider-upload-cloudinary": "^4.10.1",
     "@strapi/strapi": "4.10.1",
     "better-sqlite3": "8.0.1",
+    "invariant": "^2.2.4",
+    "lodash": "^4.17.21",
     "pg": "^8.10.0",
     "pg-connection-string": "^2.5.0",
+    "prop-types": "^15.8.1",
     "react-router": "^6.11.0",
     "stripe": "^12.3.0"
   },
